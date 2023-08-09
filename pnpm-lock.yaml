@@ -1,25 +1,24 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
+importers:
 
-devDependencies:
-  '@rollup/plugin-commonjs':
-    specifier: 22.0.1
-    version: 22.0.1(rollup@2.79.1)
-  '@rollup/plugin-node-resolve':
-    specifier: 13.3.0
-    version: 13.3.0(rollup@2.79.1)
-  '@rollup/plugin-typescript':
-    specifier: 8.3.4
-    version: 8.3.4(rollup@2.79.1)(tslib@2.4.0)(typescript@5.1.6)
-  tslib:
-    specifier: 2.4.0
-    version: 2.4.0
-  typescript:
-    specifier: ^5.1.6
-    version: 5.1.6
+  .:
+    devDependencies:
+      '@rollup/plugin-commonjs':
+        specifier: 22.0.1
+        version: 22.0.1(rollup@2.79.1)
+      '@rollup/plugin-node-resolve':
+        specifier: 13.3.0
+        version: 13.3.0(rollup@2.79.1)
+      '@rollup/plugin-typescript':
+        specifier: 8.3.4
+        version: 8.3.4(rollup@2.79.1)(tslib@2.4.0)(typescript@5.1.6)
+      tslib:
+        specifier: 2.4.0
+        version: 2.4.0
+      typescript:
+        specifier: 5.1.6
+        version: 5.1.6
 
 packages:
 
@@ -279,3 +278,7 @@ packages:
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

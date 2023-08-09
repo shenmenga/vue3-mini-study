@@ -1,0 +1,5 @@
+packages:
+    # packages 目录下的所有次级目录
+  - "packages/**" 
+    # 文档目录
+  - "docs"
